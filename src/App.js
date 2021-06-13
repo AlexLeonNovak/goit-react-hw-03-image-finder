@@ -73,7 +73,7 @@ class App extends Component {
 				});
 			})
 			.finally(() => {
-				this.setState({ isLoading: false });
+				this.setState({ isLoading: false, showModal: false });
 			});
 	};
 
